@@ -1,36 +1,36 @@
 
 <!-- saved from url=(0057)https://sisasc.informatix.co.jp/hansoku/inquiry/index.asp -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <link rel="stylesheet" href="./dir/default.css" type="text/css">
-<title>���i/�T�[�r�X�Ɋւ��邨�₢���킹�E�����ρE���������@���͉��</title>
+<title>製品/サービスに関するお問い合わせ・お見積・資料請求　入力画面</title>
 <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="https://sisasc.informatix.co.jp/hansoku/images/favicon_ifx.ico">
 <script language="JavaScript">
 <!--
 	function SubmitCheck()
 	    {		
 		if(document.MyForm.company.value=="" ){
-			alert("��Ж��i�c�̖��E�w�Z���j����͂��Ă�������");
+			alert("会社名（団体名・学校名）を入力してください");
 			return false;
 		}
 		if(document.MyForm.uname.value=="" ){
-			alert("�����O����͂��Ă�������");
+			alert("お名前を入力してください");
 			return false;
 		}		
 		if(document.MyForm.phone.value=="" ){
-			alert("�d�b�ԍ�����͂��Ă�������");
+			alert("電話番号を入力してください");
 			return false;
 		}
 		if(document.MyForm.email.value=="" ){
-			alert("���[���A�h���X����͂��Ă�������");
+			alert("メールアドレスを入力してください");
 			return false;
         }
 		if(document.MyForm.email.value.indexOf("@") < 0){
-			alert("���[���A�h���X������������܂���");
+			alert("メールアドレスが正しくありません");
 			return false;
 		}
 		if(document.MyForm.inquiry.value=="" ){
-			alert("���₢���킹���e����͂��Ă�������");
+			alert("お問い合わせ内容を入力してください");
 			return false;
 		}
 			return true;
@@ -47,7 +47,7 @@
 <table border="0" cellspacing="0" cellpadding="0" width="720" align="center">
   <tbody><tr> 
     <td width="720" height="30" bgcolor="#C60000"> 
-      <p align="center"><strong><big><font color="#FFFFFF">���i/�T�[�r�X�Ɋւ��邨�₢���킹�E�����ρE��������</font></big></strong></p>
+      <p align="center"><strong><big><font color="#FFFFFF">製品/サービスに関するお問い合わせ・お見積・資料請求</font></big></strong></p>
     </td>
   </tr>
 </tbody></table>
@@ -55,119 +55,120 @@
     <span class="honmon"><img src="./dir/form_step1.gif" alt="" width="720" height="60"></span></div>
 <br>
 <form name="MyForm" action="http://www2.lenoxsoft.com/l/372692/2017-06-22/8v1dz" method="post" onsubmit="return SubmitCheck()">
+
   <table width="500" border="0" align="center">
     <tbody><tr> 
     </tr>
   </tbody></table>
   <table width="720" border="0" align="center" cellpadding="8" cellspacing="4">
     <tbody><tr> 
-      <td width="210" height="30" valign="middle" bgcolor="#E4E4E4"><p>��Ж��E�c�̖��@<font color="red"><img src="./dir/hissu.jpg" width="28" height="18"></font></p></td>
+      <td width="210" height="30" valign="middle" bgcolor="#E4E4E4"><p>会社名・団体名　<font color="red"><img src="./dir/hissu.jpg" width="28" height="18"></font></p></td>
       <td width="466" height="30" bgcolor="#F7F7F7"> <p> 
-          <input name="company" type="text" tabindex="1" value="�b����������" size="60" >
+          <input name="Company" type="text" tabindex="1" value="恵比寿株式会社" size="60" >
       </p></td>
     </tr>
     <tr> 
-      <td height="30" valign="middle" bgcolor="#E4E4E4"><p>�������@<font color="red"><img src="./dir/hissu.jpg" width="28" height="18"></font></p></td>
+      <td height="30" valign="middle" bgcolor="#E4E4E4"><p>部署名　<font color="red"><img src="./dir/hissu.jpg" width="28" height="18"></font></p></td>
       <td bgcolor="#F7F7F7"> <p> 
-          <input name="groupy" type="text" tabindex="2" value="���V�X�e����" size="60" >
+          <input name="groupy" type="text" tabindex="2" value="情報システム部" size="60" >
       </p></td>
     </tr>
     <!--<tr> 
-      <td bgcolor="#E4E4E4"><p>�X�֔ԍ�</p></td>
+      <td bgcolor="#E4E4E4"><p>郵便番号</p></td>
       <td bgcolor="#F7F7F7"><p><font color=red> 
           <input type=text name="yuubin" size=25 maxlength=25 tabindex="3">
           <br>
-      <font color="#000000">���p�����A��؂�̓n�C�t���ł��肢���܂�</font></font></p></td>
+      <font color="#000000">半角数字、区切りはハイフンでお願いします</font></font></p></td>
     </tr>
     <tr> 
-      <td bgcolor="#E4E4E4"><p>�s���{��</p></td>
+      <td bgcolor="#E4E4E4"><p>都道府県</p></td>
       <td bgcolor="#F7F7F7"> <p> 
           <select name="ad_pref" tabindex="4" size="1">
-            <option value="�k�C��">�k�C��</option>
-            <option value="�X��">�X��</option>
-            <option value="��茧">��茧</option>
-            <option value="�{�錧">�{�錧</option>
-            <option value="�H�c��">�H�c��</option>
-            <option value="�R�`��">�R�`��</option>
-            <option value="������">������</option>
-            <option value="��錧">��錧</option>
-            <option value="�Ȗ،�">�Ȗ،�</option>
-            <option value="�Q�n��">�Q�n��</option>
-            <option value="��ʌ�">��ʌ�</option>
-            <option value="��t��">��t��</option>
-            <option value="�����s" Selected>�����s</option>
-            <option value="�_�ސ쌧">�_�ސ쌧</option>
-            <option value="�V����">�V����</option>
-            <option value="�x�R��">�x�R��</option>
-            <option value="�ΐ쌧">�ΐ쌧</option>
-            <option value="���䌧">���䌧</option>
-            <option value="�R����">�R����</option>
-            <option value="���쌧">���쌧</option>
-            <option value="�򕌌�">�򕌌�</option>
-            <option value="�É���" >�É���</option>
-            <option value="���m��">���m��</option>
-            <option value="�O�d��">�O�d��</option>
-            <option value="���ꌧ">���ꌧ</option>
-            <option value="���s�{">���s�{</option>
-            <option value="���{">���{</option>
-            <option value="���Ɍ�">���Ɍ�</option>
-            <option value="�ޗǌ�">�ޗǌ�</option>
-            <option value="�a�̎R��">�a�̎R��</option>
-            <option value="���挧">���挧</option>
-            <option value="������">������</option>
-            <option value="���R��">���R��</option>
-            <option value="�L����">�L����</option>
-            <option value="�R����">�R����</option>
-            <option value="������">������</option>
-            <option value="���쌧">���쌧</option>
-            <option value="���Q��">���Q��</option>
-            <option value="���m��">���m��</option>
-            <option value="������">������</option>
-            <option value="���ꌧ">���ꌧ</option>
-            <option value="���茧">���茧</option>
-            <option value="�F�{��">�F�{��</option>
-            <option value="�啪��">�啪��</option>
-            <option value="�{�茧">�{�茧</option>
-            <option value="��������">��������</option>
-            <option value="���ꌧ">���ꌧ</option>
-            <option value="�C�@�O">�C�@�O</option>
+            <option value="北海道">北海道</option>
+            <option value="青森県">青森県</option>
+            <option value="岩手県">岩手県</option>
+            <option value="宮城県">宮城県</option>
+            <option value="秋田県">秋田県</option>
+            <option value="山形県">山形県</option>
+            <option value="福島県">福島県</option>
+            <option value="茨城県">茨城県</option>
+            <option value="栃木県">栃木県</option>
+            <option value="群馬県">群馬県</option>
+            <option value="埼玉県">埼玉県</option>
+            <option value="千葉県">千葉県</option>
+            <option value="東京都" Selected>東京都</option>
+            <option value="神奈川県">神奈川県</option>
+            <option value="新潟県">新潟県</option>
+            <option value="富山県">富山県</option>
+            <option value="石川県">石川県</option>
+            <option value="福井県">福井県</option>
+            <option value="山梨県">山梨県</option>
+            <option value="長野県">長野県</option>
+            <option value="岐阜県">岐阜県</option>
+            <option value="静岡県" >静岡県</option>
+            <option value="愛知県">愛知県</option>
+            <option value="三重県">三重県</option>
+            <option value="滋賀県">滋賀県</option>
+            <option value="京都府">京都府</option>
+            <option value="大阪府">大阪府</option>
+            <option value="兵庫県">兵庫県</option>
+            <option value="奈良県">奈良県</option>
+            <option value="和歌山県">和歌山県</option>
+            <option value="鳥取県">鳥取県</option>
+            <option value="島根県">島根県</option>
+            <option value="岡山県">岡山県</option>
+            <option value="広島県">広島県</option>
+            <option value="山口県">山口県</option>
+            <option value="徳島県">徳島県</option>
+            <option value="香川県">香川県</option>
+            <option value="愛媛県">愛媛県</option>
+            <option value="高知県">高知県</option>
+            <option value="福岡県">福岡県</option>
+            <option value="佐賀県">佐賀県</option>
+            <option value="長崎県">長崎県</option>
+            <option value="熊本県">熊本県</option>
+            <option value="大分県">大分県</option>
+            <option value="宮崎県">宮崎県</option>
+            <option value="鹿児島県">鹿児島県</option>
+            <option value="沖縄県">沖縄県</option>
+            <option value="海　外">海　外</option>
           </select>
           <br>
-          �������t������]�̕��͕K���Z������͂��Ă������� </p></td>
+          資料送付をご希望の方は必ず住所を入力してください </p></td>
     </tr>
     <tr> 
-      <td bgcolor="#E4E4E4"><p>�Z��</p></td>
+      <td bgcolor="#E4E4E4"><p>住所</p></td>
       <td bgcolor="#F7F7F7"> <p> 
           <input type=text name="addressy" size=40 maxlength=100 tabindex="5">
       </p></td>
     </tr>
     <tr> 
-      <td bgcolor="#E4E4E4"><p>�r����</p></td>
+      <td bgcolor="#E4E4E4"><p>ビル名</p></td>
       <td bgcolor="#F7F7F7"> <p> 
           <input type="text" name="buildname" size="40" tabindex="6">
       </p></td>
     </tr> -->
     <tr> 
-      <td height="30" valign="middle" bgcolor="#E4E4E4"><p>�����O<font color="red">�@<img src="./dir/hissu.jpg" width="28" height="18"></font></p></td>
+      <td height="30" valign="middle" bgcolor="#E4E4E4"><p>お名前<font color="red">　<img src="./dir/hissu.jpg" width="28" height="18"></font></p></td>
       <td bgcolor="#F7F7F7"> <p> 
-          <input name="LastName" type="text" tabindex="7" value="�R�c ��" size="60" >
+          <input name="LastName" type="text" tabindex="7" value="山田 隆" size="60" >
       </p></td>
     </tr>
     <tr> 
-      <td height="30" valign="middle" bgcolor="#E4E4E4"><p>�d�b�ԍ�<font color="red">�@<img src="./dir/hissu.jpg" width="28" height="18"></font></p></td>
+      <td height="30" valign="middle" bgcolor="#E4E4E4"><p>電話番号<font color="red">　<img src="./dir/hissu.jpg" width="28" height="18"></font></p></td>
       <td bgcolor="#F7F7F7"> <p> 
           <input name="Phone" type="text" tabindex="8" value="03-1101-0037" size="60" >
       </p></td>
     </tr>
     <tr> 
-      <td height="30" valign="middle" bgcolor="#E4E4E4"><p>���[���A�h���X�@<font color="red"><img src="./dir/hissu.jpg" width="28" height="18"></font></p></td>
+      <td height="30" valign="middle" bgcolor="#E4E4E4"><p>メールアドレス　<font color="red"><img src="./dir/hissu.jpg" width="28" height="18"></font></p></td>
       <td bgcolor="#F7F7F7"> <p> 
           <input name="email" type="text" tabindex="10" value="hkuoki+0623a@salesforce.com" size="60">
           <br>
-          ���p�p�����̂݁iPC�A�h���X�A�X�}�[�g�t�H���A�h���X�̂݁j</p></td>
+          半角英数字のみ（PCアドレス、スマートフォンアドレスのみ）</p></td>
     </tr>
     <tr> 
-      <td bgcolor="#E4E4E4"><p>���₢���킹���i�E�T�[�r�X�@<font color="red"><img src="./dir/hissu.jpg" width="28" height="18"></font></p></td>
+      <td bgcolor="#E4E4E4"><p>お問い合わせ製品・サービス　<font color="red"><img src="./dir/hissu.jpg" width="28" height="18"></font></p></td>
       <td bgcolor="#F7F7F7"><table width="101%" border="0" cellspacing="1" cellpadding="1">
         <tbody><tr>
           <td><input name="ProductInterest" type="checkbox" id="product" value="SIS">
@@ -186,77 +187,77 @@ MicroGDS</td>
 Piranesi</td>
           <td><input name="ProductInterest" type="checkbox" id="product" value="GyroEye">
 GyroEye</td>
-          <td><input name="ProductInterest" type="checkbox" value="���̑�">
-���̑�</td>
+          <td><input name="ProductInterest" type="checkbox" value="その他">
+その他</td>
         </tr>
       </tbody></table>
       </td>
     </tr>
     <tr> 
-      <td height="30" bgcolor="#E4E4E4"><p>���₢���킹���e�@<font color="red"><img src="./dir/hissu.jpg" width="28" height="18"></font></p></td>
+      <td height="30" bgcolor="#E4E4E4"><p>お問い合わせ内容　<font color="red"><img src="./dir/hissu.jpg" width="28" height="18"></font></p></td>
       <td bgcolor="#F7F7F7"> <p> 
-          <textarea name="Comments" cols="60" rows="7" id="textarea" tabindex="19"></textarea>
+          <textarea name="Comments" cols="60" rows="7" id="textarea" tabindex="19">住宅および不動産管理のためにGIS導入を検討しています。一度話をお聞かせいただけますでしょうか。</textarea>
       </p></td>
     </tr>
     <tr>
-      <td height="30" valign="top" bgcolor="#E4E4E4">���Ђ���̍ŐV���̎󂯎��</td>
+      <td height="30" valign="top" bgcolor="#E4E4E4">弊社からの最新情報の受け取り</td>
       <td valign="top" bgcolor="#F7F7F7"><input type="radio" name="dmflag" value="true" tabindex="23">
-        ��]����@�@�@
+        希望する　　　
           <input name="dmflag" type="radio" tabindex="24" value="false" checked="">
-      ��]���Ȃ� </td>
+      希望しない </td>
     </tr>
   </tbody></table>
   <br>
   <table width="720" border="0" align="center" cellpadding="3" cellspacing="0" bgcolor="#FFF7D7">
     <tbody><tr> 
-      <td width="500" height="30"> <p>���₢���킹�t�H�[���𑗐M�����ۂɂ́A�ȉ��́u�l���̂���舵���ɂ��āv�����ǂ݂ɂȂ�A�L�ڂ���Ă�����e�Ɋւ��Ă����ӂ��������K�v������܂��B�����ӂ���������ꍇ�́A�u���ӂ��Ċm�F��ʂցv�{�^�����N���b�N���Ă��������B</p></td>
+      <td width="500" height="30"> <p>お問い合わせフォームを送信される際には、以下の「個人情報のお取り扱いについて」をお読みになり、記載されている内容に関してご同意いただく必要があります。ご同意いただける場合は、「同意して確認画面へ」ボタンをクリックしてください。</p></td>
     </tr>
   </tbody></table>
   <br>
   <div align="center">
-    <textarea name="privacy" style="font-size:9pt;" cols="100" rows="5" id="textarea2">�y�l���̂���舵���ɂ��āz
+    <textarea name="privacy" style="font-size:9pt;" cols="100" rows="5" id="textarea2">【個人情報のお取り扱いについて】
 
-�i1�j ���Ǝ҂̎����܂��͖���
-������ЃC���t�H�}�e�B�N�X
+（1） 事業者の氏名または名称
+株式会社インフォマティクス
 
-�i2�j �l���ی�Ǘ���
-������ЃC���t�H�}�e�B�N�X�@�Z�p�J�����@�L���z�q
+（2） 個人情報保護管理者
+株式会社インフォマティクス　技術開発部　鵜飼陽子
 
-�i3�j �l���̗��p�ړI
-���̐\�����݉�ʂł����͂����������l���́A����̂��₢���킹�ɑ΂���񓚂�ԐM���邽�߁A����ъ�����ЃC���t�H�}�e�B�N�X����̃��[���}�K�W���uInformatix��ԏ��j���[�X�v�̑��t�݂̂Ɏg�p�������܂��B�Ȃ��A�d�b�ԍ��́A������͂��Ă������������₢���킹���e�ɂ��āA�d�b�ł̉񓚂��K�؂Ɣ��f�����ꍇ�Ɏg�p�����Ă����������Ƃ�����܂��B
+（3） 個人情報の利用目的
+この申し込み画面でご入力いただいた個人情報は、今回のお問い合わせに対する回答を返信するため、および株式会社インフォマティクスからのメールマガジン「Informatix空間情報ニュース」の送付のみに使用いたします。なお、電話番号は、今回入力していただいたお問い合わせ内容について、電話での回答が適切と判断される場合に使用させていただくことがあります。
 
-�i4�j �l���̑�O�Ғ񋟂ɂ���
-�擾�����l�����O�҂ɒ񋟂��邱�Ƃ͂���܂���B
+（4） 個人情報の第三者提供について
+取得した個人情報を第三者に提供することはありません。
 
-�i5�j �l���̎�舵���̈ϑ��ɂ���
-�擾�����l���̎�舵���̑S�����͈ꕔ���ϑ����邱�Ƃ͂���܂���B
+（5） 個人情報の取り扱いの委託について
+取得した個人情報の取り扱いの全部又は一部を委託することはありません。
 
-�i6�j �J���Ώیl���̊J��������і₢���킹�����ɂ���
-���{�l����̋��߂ɂ��A���Ђ��ۗL����J���Ώیl���̗��p�ړI�̒ʒm�E�J���E���e�̒����E�ǉ��܂��͍폜�E���p�̒�~�E��������ё�O�҂ւ̒񋟂̒�~�i�u�J�����v�Ƃ����܂��B�j�ɉ����܂��B
-�J�����ɉ����鑋���́A�ȉ��́u���₢���킹��v���������������B 
+（6） 開示対象個人情報の開示等および問い合わせ窓口について
+ご本人からの求めにより、弊社が保有する開示対象個人情報の利用目的の通知・開示・内容の訂正・追加または削除・利用の停止・消去および第三者への提供の停止（「開示等」といいます。）に応じます。
+開示等に応ずる窓口は、以下の「お問い合わせ先」をご覧ください。 
 
-�i7�j �l������͂���ɂ������Ă̒��ӎ���
-���[���A�h���X�̓��͂ɂ����ẮA���̂Ȃ��悤�ɂ����ӂ��������B�A�h���X�Ɍ�肪����ꍇ�A�񓚂����͂��ł��Ȃ��ꍇ������܂��B
+（7） 個人情報を入力するにあたっての注意事項
+メールアドレスの入力にあっては、誤りのないようにご注意ください。アドレスに誤りがある場合、回答をお届けできない場合があります。
 
-�i8�j �{�l���e�ՂɔF���ł��Ȃ����@�ɂ��l���̎擾
-�N�b�L�[��E�F�u�r�[�R������p����Ȃǂ��āA�{�l���e�ՂɔF���ł��Ȃ����@�ɂ��l���̎擾�͍s���Ă���܂���B
+（8） 本人が容易に認識できない方法による個人情報の取得
+クッキーやウェブビーコン等を用いるなどして、本人が容易に認識できない方法による個人情報の取得は行っておりません。
 
-�i9�j �l���̈��S�Ǘ��[�u�ɂ���
-�擾�����l���ɂ��ẮA�R�k�A�Ŏ��܂��͂����̖h�~�Ɛ����A���̑��l���̈��S�Ǘ��̂��߂ɕK�v���K�؂ȑ[�u���u���܂��B
-���̃T�C�g�́ASSL�iSecure Socket Layer�j�ɂ��Í����[�u���u���Ă��܂��B
+（9） 個人情報の安全管理措置について
+取得した個人情報については、漏洩、滅失またはき損の防止と是正、その他個人情報の安全管理のために必要かつ適切な措置を講じます。
+このサイトは、SSL（Secure Socket Layer）による暗号化措置を講じています。
 
-�i10�j �l���ی���j
-���Ѓz�[���y�[�W�̌l���ی���j���������������B
+（10） 個人情報保護方針
+弊社ホームページの個人情報保護方針をご覧ください。
 http://www.informatix.co.jp/top/privacy.html
 
-�y���Ђ̌l���̎�舵���Ɋւ�����A���k���̂��₢���킹��z
-������ЃC���t�H�}�e�B�N�X�@�l����������
-���s�K���{��1310 �~���[�U���Z���g�����^���[27�e
-Tel�F 044-520-0850�@Fax�F 044-520-0845
-URL�F http://www.informatix.co.jp/top/privacy.html</textarea>
+【当社の個人情報の取り扱いに関する苦情、相談等のお問い合わせ先】
+株式会社インフォマティクス　個人情報苦情処理窓口
+川崎市幸区大宮町1310 ミューザ川崎セントラルタワー27Ｆ
+Tel： 044-520-0850　Fax： 044-520-0845
+URL： http://www.informatix.co.jp/top/privacy.html</textarea>
   </div>
   <p align="center">
-  <input type="submit" name="submit" value="�\����" tabindex="30">
+  <input type="submit" name="submit" value="申込み" tabindex="30">
   </p>
   <div align="center"> 
     <hr>
